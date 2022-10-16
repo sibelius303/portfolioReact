@@ -10,9 +10,9 @@ export const AboutMe = () => {
 
 	return (
 		<div className="appContainer">
-			<Container maxWidth="sm">
-        	<Box sx={{ bgcolor: '#cfe8fc', height: '100vh' }}>
-				<h1>Hello Word</h1>
+			<Container maxWidth="md">
+        	<Box sx={{ bgcolor: '#808080', height: '100%', marginTop: "50px", marginBottom:"50px"}}>
+				
 			</Box>
      		 </Container>
 			
