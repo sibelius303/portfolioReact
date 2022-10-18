@@ -11,8 +11,15 @@ export const AboutMe = () => {
 	return (
 		<div className="appContainer">
 			<Container maxWidth="md">
-        	<Box sx={{ bgcolor: '#808080', height: '100%', marginTop: "50px", marginBottom:"50px"}}>
-				
+        	<Box sx={{ bgcolor: 'black', height: '100%', marginTop: "50px", marginBottom:"50px"}}>
+				<div className="container">
+					<div className="picture">
+						div1
+					</div>
+					<div className="text">
+						div 2
+					</div>
+				</div>
 			</Box>
      		 </Container>
 			
