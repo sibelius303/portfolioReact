@@ -8,21 +8,20 @@
     max-height: 469px;
 }
 
-.skillsContainer{
-    overflow-y: auto;
-    max-height: 470px;
-}
 
-.skillBlackBanner{
-    background-color: black;
-    color: white;
-    height: 250px;
+
+
+/*MyWork Styles*/
+
+.appContainerMyWork{
     width: 100%;
+    min-height: 469px;
+    max-height: 469px;
 }
 
-.skillWhiteBanner{
-    background-color: white;
-    color: black;
-    height: 250px;
-    width: 100%; 
+.cardContainer{
+    display: flex;
+   max-height: 470px;
+   max-width: 100%;
+   overflow-x: auto;
 }

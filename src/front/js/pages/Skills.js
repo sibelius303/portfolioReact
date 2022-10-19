@@ -8,14 +8,7 @@ export const Skills = () => {
 
 	return (
 		<div className="appContainerSkills">
-			<div className="skillsContainer">
-				<div className="skillWhiteBanner"></div>
-				<div className="skillBlackBanner"></div>
-				<div className="skillWhiteBanner"></div>
-				<div className="skillBlackBanner"></div>
-				<div className="skillWhiteBanner"></div>
-				<div className="skillBlackBanner"></div>
-			</div>
+			
 		</div>
 	);
 };

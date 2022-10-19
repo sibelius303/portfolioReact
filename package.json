@@ -77,8 +77,10 @@
 		"@emotion/styled": "^11.10.4",
 		"@mui/icons-material": "^5.10.9",
 		"@mui/material": "^5.10.9",
+		"bootstrap": "^5.2.2",
 		"prop-types": "^15.6.1",
 		"react": "^16.8.4",
+		"react-bootstrap": "^2.5.0",
 		"react-dom": "^16.8.4",
 		"react-polyfills": "0.0.1",
 		"react-router-dom": "^6.3.0"
