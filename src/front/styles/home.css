@@ -17,10 +17,98 @@
 .picture{
     width: 40%;
     height: 369px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.foto{
+    background-image: url("https://picsum.photos/200/300");
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
 }
 
 .text{
     width: 60%;
     height: 369px;
+    color: white;
+    padding: 10px;
+    overflow-y: auto;
 }
 
+.nombre{
+    font-size: 30px;
+}
+
+.title{
+    position: relative;
+    display: block;
+    font-size: 1rem;
+    font-family: sans-serif;
+    -webkit-text-stroke: 0vw
+    #383d52;
+    text-transform: uppercase;
+}
+
+.title2{
+    font-size: 1rem;
+}
+
+.title::before{
+    content: attr(data-text);
+    display: block;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    color: #4fed51;
+    -webkit-text-stroke: 0vw
+    #383d52;
+    border-right: 2px solid #4fed51;
+    overflow: hidden;
+    animation: animate 3s linear infinite;
+    -webkit-animation: animate 3s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        width: 0;
+    }
+    70%{
+        width: 100%;
+    }
+}
+
+.botonSkills{
+    background: transparent;
+    color: #3bd9d9;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px;
+    border: 2px solid #3bd9d9;
+    border-radius: 32px;
+    transform: translate(0);
+    overflow: hidden;
+}
+
+.botonSkills::before {
+    content: "";
+    position: absolute;
+    background: #3bd9d9;
+    width: 8px;
+    top: 0;
+    bottom: 0;
+    left: -32px;
+    transform: rotate(-16deg);
+    filter: blur(6px);
+}
+
+.botonSkills:hover::before{
+    left: calc(100% + 32px);
+    transition: 0.75s;
+}
